@@ -1,0 +1,6 @@
+secret_key
+node_modules/
+yarn-error.log
+.history/
+storage.json
+dist/

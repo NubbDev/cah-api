@@ -1,0 +1,33 @@
+{
+  "name": "Cards_Against_Humanity-API",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/passport": "^2.3.0",
+    "@fastify/secure-session": "^6.1.0",
+    "@fastify/websocket": "^8.2.0",
+    "bcrypt": "^5.1.0",
+    "fastify": "^4.19.2",
+    "fastify-socket.io": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "random-words": "^2.0.0",
+    "socket.io": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/node": "^20.4.2",
+    "@types/ws": "^8.5.5",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "types-fastify-socket.io": "^0.0.1",
+    "typescript": "^5.1.6"
+  }
+}
